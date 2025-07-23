@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wassano Studios | Retratos com Alma</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #fdfdfc;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+    header {
+      padding: 3rem 1rem;
+      text-align: center;
+      background-color: #ffffff;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #5a5a5a;
+    }
+    .section {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+    .section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      font-family: 'Playfair Display', serif;
+    }
+    .section p {
+      margin-bottom: 1.5rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #1a1a1a;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background-color: #444;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      padding: 0.75rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #fafafa;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    .instagram {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .instagram a {
+      color: #1a1a1a;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Wassano Studios</h1>
+    <p>Ensaio é presença, escuta e criação</p>
+  </header>
+
+  <section class="section">
+    <h2>Sobre o Estúdio</h2>
+    <p>
+      Com base em Guarulhos-SP, o Wassano Studios nasce do desejo de criar imagens com alma e intenção. Atuamos com ensaios personalizados e cobertura de pequenos eventos, sempre priorizando a escuta e a sensibilidade do momento.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Serviços</h2>
+    <p>• Ensaios fotográficos individuais, de casal ou família<br>
+       • Retratos autorais e editoriais<br>
+       • Cobertura de eventos íntimos e celebrações</p>
+  </section>
+
+  <section class="section">
+    <h2>Entre em Contato</h2>
+    <form class="contact-form" action="https://formsubmit.co/wassanostudios@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://google.com">
+      <input type="text" name="nome" placeholder="Seu nome" required />
+      <input type="email" name="email" placeholder="Seu e-mail" required />
+      <textarea name="mensagem" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <section class="instagram">
+    <p>Siga nosso trabalho no Instagram:</p>
+    <a href="https://www.instagram.com/studios.wassano?igsh=a2NiMGt1eDN6MXEy" target="_blank">@studios.wassano</a>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Wassano Studios. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
